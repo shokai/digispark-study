@@ -1,7 +1,7 @@
-void setup() {                
+void setup(){
 }
 
-void loop() {
+void loop(){
   for(char i = 0; i < 26; i++){
     analogWrite(0, i*10);
     analogWrite(1, i*10);
