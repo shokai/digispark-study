@@ -1,9 +1,4 @@
+# ADC -> USB
 
-Install digiterm
-
-    % gem install digiusb
-
-
-Run
-
-    % digiterm
+- read analog value
+- print via USB
