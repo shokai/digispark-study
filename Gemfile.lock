@@ -1,0 +1,17 @@
+GEM
+  specs:
+    colored (1.2)
+    colorist (0.0.2)
+    digiusb (1.0.5)
+      colored (>= 1.2)
+      colorist (>= 0.0.2)
+      libusb (>= 0.2.0)
+    ffi (1.9.3)
+    libusb (0.4.0)
+      ffi (>= 1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  digiusb

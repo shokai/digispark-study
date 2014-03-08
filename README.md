@@ -10,8 +10,13 @@
 - http://digistump.com/products/1
 
 
-## Install digiterm
+## Install Rubygems
 
-    % gem install digiusb
+    % gem install bundler
+    % bundle install
+
+
+### digiterm (from digiusb gem)
+
     % digiterm -h
     % digiterm
