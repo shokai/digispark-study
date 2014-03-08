@@ -1,13 +1,15 @@
-bool led_stat = false;
+// software PWM
 
 void setup() {                
-  pinMode(0, true);
-  pinMode(1, true);
 }
 
 void loop() {
-  digitalWrite(0, led_stat);
-  digitalWrite(1, !led_stat);
-  led_stat = !led_stat;
-  delay(500);
+  for(char i = 0; i < 26; i++){
+    analogWrite(1, i*10);
+    delay(20);
+  }
+  for(char i = 25; i > 0; i--){
+    analogWrite(1, i*10);
+    delay(20);
+  }
 }
